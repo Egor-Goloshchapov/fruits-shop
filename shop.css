@@ -1,0 +1,86 @@
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 250px;
+}
+
+.fruits-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+}
+
+.fruits-title {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+
+.fruits-text {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.fruits-button {
+       color: #212121;
+   font-family: Roboto;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.42px;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(58, 56, 56, 0.452);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.is-hidden {
+    display: none;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.modal {
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
